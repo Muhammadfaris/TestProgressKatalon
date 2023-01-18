@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite-Login,Chrome 109.0.0.0,,,2023-01-18 15:12:48,2023-01-18 15:13:02,13.531s,PASSED
+,,,,,,,
+Test Cases/TC1-Login page verification,Chrome 109.0.0.0,,,2023-01-18 15:12:49,2023-01-18 15:13:02,13.111s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 109.0.0.0,,,2023-01-18 15:12:49,2023-01-18 15:12:54,4.417s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-18 15:12:54,2023-01-18 15:12:54,0.249s,PASSED
+"waitForElementPresent(findTestObject(""Logo login page""), 0)",Chrome 109.0.0.0,,,2023-01-18 15:12:54,2023-01-18 15:12:55,0.795s,PASSED
+"takeScreenshotAsCheckpoint(""Login Page"", [])",Chrome 109.0.0.0,,,2023-01-18 15:12:55,2023-01-18 15:12:56,0.870s,PASSED
+"verifyElementPresent(findTestObject(""Username field""), 0)",Chrome 109.0.0.0,,,2023-01-18 15:12:56,2023-01-18 15:12:56,0.432s,PASSED
+"setText(findTestObject(""Username field""), ""standard_user"")",Chrome 109.0.0.0,,,2023-01-18 15:12:56,2023-01-18 15:12:57,0.992s,PASSED
+"verifyElementPresent(findTestObject(""Password field""), 0)",Chrome 109.0.0.0,,,2023-01-18 15:12:57,2023-01-18 15:12:58,0.658s,PASSED
+"setText(findTestObject(""Password field""), ""secret_sauce"")",Chrome 109.0.0.0,,,2023-01-18 15:12:58,2023-01-18 15:12:59,0.855s,PASSED
+"takeScreenshotAsCheckpoint(""User Login With Correct Account"", [])",Chrome 109.0.0.0,,,2023-01-18 15:12:59,2023-01-18 15:12:59,0.658s,PASSED
+"submit(findTestObject(""Password field""))",Chrome 109.0.0.0,,,2023-01-18 15:12:59,2023-01-18 15:13:00,0.497s,PASSED
+"waitForElementPresent(findTestObject(""Logo home page""), 0)",Chrome 109.0.0.0,,,2023-01-18 15:13:00,2023-01-18 15:13:00,0.400s,PASSED
+"takeScreenshotAsCheckpoint(""Home Page"", [])",Chrome 109.0.0.0,,,2023-01-18 15:13:00,2023-01-18 15:13:01,0.926s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-18 15:13:01,2023-01-18 15:13:02,0.721s,PASSED
