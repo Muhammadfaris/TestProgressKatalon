@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC8-Veify normal user can access the home page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc839f55-4349-4b4a-ab8e-8a9469f6bca7</testCaseGuid>
+</TestCaseEntity>

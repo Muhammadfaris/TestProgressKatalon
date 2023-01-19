@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite-Login</name>
+   <name>Test Suite-HomePage</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>5994c18a-a317-44a2-87a8-e9045d104556</testSuiteGuid>
+   <testSuiteGuid>d190aa8e-9ae1-4f91-8d4c-558a2f2323d5</testSuiteGuid>
    <testCaseLink>
-      <guid>f3c02d62-ee96-44e9-943e-d53badbb55f6</guid>
+      <guid>9220d5a2-e043-4ff7-9400-bd6e7f6892ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC1-Login page verification</testCaseId>
+      <testCaseId>Test Cases/TC8-Veify normal user can access the home page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -25,5 +25,19 @@ WebUI.waitForElementPresent(findTestObject('Logo login page'), 0)
 
 WebUI.takeScreenshotAsCheckpoint('Login Page', [])
 
+WebUI.verifyElementPresent(findTestObject('Username field'), 0)
+
+WebUI.setText(findTestObject('Username field'), GlobalVariable.lockUser)
+
+WebUI.verifyElementPresent(findTestObject('Password field'), 0)
+
+WebUI.setText(findTestObject('Password field'), GlobalVariable.password)
+
+WebUI.takeScreenshotAsCheckpoint('User Login With Correct Account', [])
+
+WebUI.submit(findTestObject('Password field'))
+
+WebUI.waitForElementPresent(findTestObject('Logo home page'), 0)
+
 WebUI.closeBrowser()
 

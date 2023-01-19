@@ -21,9 +21,15 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementPresent(findTestObject('Logo login page'), 0)
+WebUI.waitForElementPresent(findTestObject('Login page'), 0)
 
 WebUI.takeScreenshotAsCheckpoint('Login Page', [])
+
+WebUI.click(findTestObject('Button login'))
+
+WebUI.verifyElementPresent(findTestObject('Invalid blank username notification'), 0)
+
+WebUI.takeScreenshotAsCheckpoint('Invalid Username', [])
 
 WebUI.closeBrowser()
 
